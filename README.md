@@ -46,4 +46,8 @@ Multiple numbers input (comma and new line seperated) Result should be 6
 
 Input with New Line Only	"1\n2\n3"	Calculator(Action) called	Result should be 6
 
+Input with New Line Only	"1\n2\n3"	Calculator(Action) called	Result should be 6
+
+Negative Number Input	"1,-2"	Calculator is called	Exception message should be "negatives not allowed: -2"
+
 
