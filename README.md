@@ -37,4 +37,8 @@ Start Test-driven approach
 Test Specification
 
 Empty string input "" calculator it should return 0
+Single Number input like 1 it should return 1
+Two numbers input(seperated by comma) result should be 6
+Multiple numbers input (comma and new line seperated) result should be 6
+
 
