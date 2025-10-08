@@ -36,12 +36,14 @@ Start Test-driven approach
 
 Test Specification
 
-Empty string input "" calculator (Action) it should return 0
+Empty string input "" calculator (Action) Result should be 0
 
-Single Number input like 1 it should return 1
+Single Number input like 1 Result should be 1
 
-Two numbers input(seperated by comma) result should be 6
+Two numbers input(seperated by comma) Result should be 6
 
-Multiple numbers input (comma and new line seperated) result should be 6
+Multiple numbers input (comma and new line seperated) Result should be 6
+
+Input with New Line Only	"1\n2\n3"	Calculator(Action) called	Result should be 6
 
 
