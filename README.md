@@ -33,3 +33,21 @@ Start Test-driven approach
 1. Write the smallest possible failing test: give input `"" assert output to be 0 ` .
 2. Write the minimum amount of code that'll make it pass.
 3. Refactor any assumptions, continue to pass this test. Do not add any code without a corresponding test.
+
+Test Specification
+
+Empty string input "" calculator (Action) Result should be 0
+
+Single Number input like 1 Result should be 1
+
+Two numbers input(seperated by comma) Result should be 6
+
+Multiple numbers input (comma and new line seperated) Result should be 6
+
+Input with New Line Only	"1\n2\n3"	Calculator(Action) called	Result should be 6
+
+Input with New Line Only	"1\n2\n3"	Calculator(Action) called	Result should be 6
+
+Negative Number Input	"1,-2"	Calculator is called	Exception message should be "negatives not allowed: -2"
+
+
